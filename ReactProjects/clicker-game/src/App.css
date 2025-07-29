@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('D:/ReactProjects/clicker-game/public/board.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9); /* Transparent overlay */
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+  perspective: 1000px;
+}
+
+.card {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.card-front {
+  background: #fff;
+  color: black;
+}
+
+.card-back {
+  background: green;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.card.matched {
+  background-color: #27ae60;
+  color: white;
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.8);
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}

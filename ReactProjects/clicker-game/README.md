@@ -1,12 +1,3 @@
-
----
-
-## 📸 Screenshots
-
-![Gameplay Screenshot](./assets/images/demo.png) <!-- Add your screenshot here -->
-
----
-
 ## 🏁 Getting Started
 
 ### 📦 Prerequisites

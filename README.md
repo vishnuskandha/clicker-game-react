@@ -1,16 +1,23 @@
 # 🎮 Clicker Game – ReactJS
 
-A simple and addictive clicker-style game built using **ReactJS**. This project helps demonstrate component-based architecture, state management, and user interaction in a modern frontend app.
+A simple, fun, and responsive clicker game built using **ReactJS**. This project demonstrates the use of modern frontend techniques such as component-based architecture, React state management, and user interaction through event handling.
+
+---
 
 ## 🚀 Features
-- ⏱️ Real-time score tracking with increasing difficulty
-- 💥 Animated click events using React state hooks
-- 🛠️ Clean UI with modular components
-- 📱 Responsive design – works on desktop & mobile
-- 📦 Future support planned for **Android app** (React Native or Capacitor build)
+
+- ⏱️ Real-time score tracking
+- 🔁 State updates on every click
+- ⚛️ Functional components using Hooks
+- 🎨 Styled with responsive design
+- 📱 Mobile and desktop compatibility
+- 📦 Future support planned for **Android App** using Capacitor or React Native
+
+---
 
 ## 🧠 Tech Stack
-- ⚛️ ReactJS (Functional Components + Hooks)
-- 🎨 CSS3 + Tailwind or Styled Components (if used)
-- 📦 Vite / Create React App
-- 🔧 Optional: LocalStorage for score memory
+
+- ⚛️ ReactJS (Create React App)
+- 🧰 JavaScript ES6+
+- 🎨 CSS3
+- 📦 npm

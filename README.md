@@ -14,6 +14,3 @@ A simple and addictive clicker-style game built using **ReactJS**. This project 
 - 🎨 CSS3 + Tailwind or Styled Components (if used)
 - 📦 Vite / Create React App
 - 🔧 Optional: LocalStorage for score memory
-
-## 📂 Folder Structure
-

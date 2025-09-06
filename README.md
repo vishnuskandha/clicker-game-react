@@ -8,52 +8,6 @@ An advanced memory matching game built with React and GSAP animations featuring 
 [![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![GSAP](https://img.shields.io/badge/GSAP-3.13.0-green?style=for-the-badge&logo=greensock)](https://greensock.com/)
 
-![Game Preview](https://img.shields.io/badge/Memory%20Match%20Game-React%20%2B%20GSAP-blue?style=for-the-badge&logo=react)
-
-## 🎮 Live Demo
-
-[![Play Now](https://img.shields.io/badge/🎮_Play_Now-Live_Demo-blue?style=for-the-badge&logo=react)](https://vishnuskandha.github.io/clicker-game-react)
-
-**🔗 Direct Link**: [https://vishnuskandha.github.io/clicker-game-react](https://vishnuskandha.github.io/clicker-game-react)
-
-## 📸 Screenshots & Preview
-
-### 🎯 Game Interface
-![Game Interface](https://img.shields.io/badge/Game%20Interface-Animated%20Cards-purple?style=for-the-badge)
-
-### ✨ Animation Preview
-![Animation Preview](https://img.shields.io/badge/GSAP%20Animations-Smooth%20Transitions-green?style=for-the-badge)
-
-### 📱 Mobile Responsive
-![Mobile View](https://img.shields.io/badge/Mobile%20Responsive-All%20Devices-orange?style=for-the-badge)
-
-### 🎬 How to Create Real Screenshots
-To replace placeholder images with actual screenshots:
-
-1. **Take Screenshots**:
-   - Run `npm start` to open the game
-   - Take screenshots of different game states
-   - Save as `screenshot1.png`, `screenshot2.png`, etc.
-
-2. **Create GIFs**:
-   - Use screen recording tools (OBS, LICEcap, or browser dev tools)
-   - Record card flip animations
-   - Save as `card-flip.gif`, `win-animation.gif`
-
-3. **Upload to Repository**:
-   ```bash
-   # Add images to repository
-   git add screenshots/
-   git commit -m "Add game screenshots and GIFs"
-   git push
-   ```
-
-4. **Update README**:
-   ```markdown
-   ![Game Interface](./screenshots/game-interface.png)
-   ![Card Flip Animation](./screenshots/card-flip.gif)
-   ```
-
 ## 🎬 Features Showcase
 
 ### 🎯 Interactive Animations

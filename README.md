@@ -8,7 +8,7 @@ An advanced memory matching game built with React and GSAP animations featuring 
 [![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![GSAP](https://img.shields.io/badge/GSAP-3.13.0-green?style=for-the-badge&logo=greensock)](https://greensock.com/)
 
-![Game Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=Memory+Match+Game)
+![Game Preview](https://img.shields.io/badge/Memory%20Match%20Game-React%20%2B%20GSAP-blue?style=for-the-badge&logo=react)
 
 ## 🎮 Live Demo
 
@@ -19,13 +19,13 @@ An advanced memory matching game built with React and GSAP animations featuring 
 ## 📸 Screenshots & Preview
 
 ### 🎯 Game Interface
-![Game Interface](https://via.placeholder.com/600x400/667eea/ffffff?text=Game+Interface+with+Animated+Cards)
+![Game Interface](https://img.shields.io/badge/Game%20Interface-Animated%20Cards-purple?style=for-the-badge)
 
 ### ✨ Animation Preview
-![Animation Preview](https://via.placeholder.com/600x300/764ba2/ffffff?text=GSAP+Card+Flip+Animations)
+![Animation Preview](https://img.shields.io/badge/GSAP%20Animations-Smooth%20Transitions-green?style=for-the-badge)
 
 ### 📱 Mobile Responsive
-![Mobile View](https://via.placeholder.com/300x500/27ae60/ffffff?text=Mobile+Responsive+Design)
+![Mobile View](https://img.shields.io/badge/Mobile%20Responsive-All%20Devices-orange?style=for-the-badge)
 
 ### 🎬 How to Create Real Screenshots
 To replace placeholder images with actual screenshots:
@@ -59,11 +59,11 @@ To replace placeholder images with actual screenshots:
 ### 🎯 Interactive Animations
 | Feature | Description | Preview |
 |---------|-------------|---------|
-| **Card Flip Animation** | Smooth 3D card flip with GSAP | ![Card Flip](https://via.placeholder.com/200x150/667eea/ffffff?text=Card+Flip) |
-| **Hover Effects** | Interactive hover animations | ![Hover](https://via.placeholder.com/200x150/764ba2/ffffff?text=Hover+Effect) |
-| **Match Detection** | Success/failure animations | ![Match](https://via.placeholder.com/200x150/27ae60/ffffff?text=Match+Found) |
-| **Win Celebration** | Animated victory screen | ![Win](https://via.placeholder.com/200x150/f39c12/ffffff?text=You+Win!) |
-| **License Section** | Floating license information | ![License](https://via.placeholder.com/200x150/34495e/ffffff?text=License+Info) |
+| **Card Flip Animation** | Smooth 3D card flip with GSAP | ![Card Flip](https://img.shields.io/badge/Card%20Flip-3D%20Animation-blue) |
+| **Hover Effects** | Interactive hover animations | ![Hover](https://img.shields.io/badge/Hover%20Effects-Interactive-purple) |
+| **Match Detection** | Success/failure animations | ![Match](https://img.shields.io/badge/Match%20Detection-Success%20Animation-green) |
+| **Win Celebration** | Animated victory screen | ![Win](https://img.shields.io/badge/Win%20Celebration-Victory%20Animation-orange) |
+| **License Section** | Floating license information | ![License](https://img.shields.io/badge/License%20Section-Floating%20Card-gray) |
 
 ### 🎮 Gameplay Preview
 ```

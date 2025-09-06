@@ -8,12 +8,6 @@ An advanced memory matching game built with React and GSAP animations featuring 
 [![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![GSAP](https://img.shields.io/badge/GSAP-3.13.0-green?style=for-the-badge&logo=greensock)](https://greensock.com/)
 
-![Game Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=Memory+Match+Game)
-
-## 🎮 Live Demo
-
-[![Play Now](https://img.shields.io/badge/🎮_Play_Now-Live_Demo-blue?style=for-the-badge&logo=react)](https://vishnuskandha.github.io/clicker-game-react)
-
 **🔗 Direct Link**: [https://vishnuskandha.github.io/clicker-game-react](https://vishnuskandha.github.io/clicker-game-react)
 
 ## 📸 Screenshots & Preview

@@ -10,6 +10,89 @@ An advanced memory matching game built with React and GSAP animations featuring 
 
 ![Game Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=Memory+Match+Game)
 
+## 🎮 Live Demo
+
+[![Play Now](https://img.shields.io/badge/🎮_Play_Now-Live_Demo-blue?style=for-the-badge&logo=react)](https://vishnuskandha.github.io/clicker-game-react)
+
+**🔗 Direct Link**: [https://vishnuskandha.github.io/clicker-game-react](https://vishnuskandha.github.io/clicker-game-react)
+
+## 📸 Screenshots & Preview
+
+### 🎯 Game Interface
+![Game Interface](https://via.placeholder.com/600x400/667eea/ffffff?text=Game+Interface+with+Animated+Cards)
+
+### ✨ Animation Preview
+![Animation Preview](https://via.placeholder.com/600x300/764ba2/ffffff?text=GSAP+Card+Flip+Animations)
+
+### 📱 Mobile Responsive
+![Mobile View](https://via.placeholder.com/300x500/27ae60/ffffff?text=Mobile+Responsive+Design)
+
+### 🎬 How to Create Real Screenshots
+To replace placeholder images with actual screenshots:
+
+1. **Take Screenshots**:
+   - Run `npm start` to open the game
+   - Take screenshots of different game states
+   - Save as `screenshot1.png`, `screenshot2.png`, etc.
+
+2. **Create GIFs**:
+   - Use screen recording tools (OBS, LICEcap, or browser dev tools)
+   - Record card flip animations
+   - Save as `card-flip.gif`, `win-animation.gif`
+
+3. **Upload to Repository**:
+   ```bash
+   # Add images to repository
+   git add screenshots/
+   git commit -m "Add game screenshots and GIFs"
+   git push
+   ```
+
+4. **Update README**:
+   ```markdown
+   ![Game Interface](./screenshots/game-interface.png)
+   ![Card Flip Animation](./screenshots/card-flip.gif)
+   ```
+
+## 🎬 Features Showcase
+
+### 🎯 Interactive Animations
+| Feature | Description | Preview |
+|---------|-------------|---------|
+| **Card Flip Animation** | Smooth 3D card flip with GSAP | ![Card Flip](https://via.placeholder.com/200x150/667eea/ffffff?text=Card+Flip) |
+| **Hover Effects** | Interactive hover animations | ![Hover](https://via.placeholder.com/200x150/764ba2/ffffff?text=Hover+Effect) |
+| **Match Detection** | Success/failure animations | ![Match](https://via.placeholder.com/200x150/27ae60/ffffff?text=Match+Found) |
+| **Win Celebration** | Animated victory screen | ![Win](https://via.placeholder.com/200x150/f39c12/ffffff?text=You+Win!) |
+| **License Section** | Floating license information | ![License](https://via.placeholder.com/200x150/34495e/ffffff?text=License+Info) |
+
+### 🎮 Gameplay Preview
+```
+🎯 Memory Match Game Flow:
+┌─────────────────────────────────────┐
+│ 1. Click cards to flip them        │
+│ 2. Find matching pairs              │
+│ 3. Complete all matches             │
+│ 4. Celebrate your victory! 🎉      │
+└─────────────────────────────────────┘
+```
+
+### 📊 Performance Metrics
+- **⚡ Fast Animations**: 60fps smooth gameplay
+- **📱 Mobile Optimized**: Responsive on all devices
+- **🎨 Modern UI**: Glassmorphism design
+- **🔧 Easy Setup**: One-command installation
+
+## 🚀 Quick Start Preview
+
+```bash
+# Clone and run in 3 steps
+git clone https://github.com/vishnuskandha/clicker-game-react.git
+cd clicker-game-react
+npm install --legacy-peer-deps && npm start
+```
+
+**Result**: Your game will be running at `http://localhost:3000` with all animations and features!
+
 ## ✨ Features
 
 - **Smooth GSAP Animations**: Card flips, hover effects, and page transitions

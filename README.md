@@ -1,234 +1,99 @@
-# 🎮 Memory Match Game
+# Memory Match Game
 
-An advanced memory matching game built with React and GSAP animations featuring a modern, responsive UI and smooth animations.
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/vishnuskandha/clicker-game-react/actions/workflows/deploy.yml/badge.svg)](https://github.com/vishnuskandha/clicker-game-react/actions/workflows/deploy.yml)
+[![React](https://img.shields.io/badge/React-18-blue.svg?logo=react)](https://reactjs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-3-green.svg?logo=greensock)](https://greensock.com/)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Game-blue?style=for-the-badge&logo=react)](https://vishnuskandha.github.io/clicker-game-react)
-[![GitHub Stars](https://img.shields.io/github/stars/vishnuskandha/clicker-game-react?style=for-the-badge&logo=github)](https://github.com/vishnuskandha/clicker-game-react)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![GSAP](https://img.shields.io/badge/GSAP-3.13.0-green?style=for-the-badge&logo=greensock)](https://greensock.com/)
+[Play the game](https://vishnuskandha.github.io/clicker-game-react)
 
-## 🎬 Features Showcase
+A memory matching game built with React and GSAP. Flip cards, find all matching pairs, and beat your best score. The game features a glassmorphism UI, 3D card flips, and celebration animations on victory.
 
-### 🎯 Interactive Animations
-| Feature | Description | Preview |
-|---------|-------------|---------|
-| **Card Flip Animation** | Smooth 3D card flip with GSAP | ![Card Flip](https://img.shields.io/badge/Card%20Flip-3D%20Animation-blue) |
-| **Hover Effects** | Interactive hover animations | ![Hover](https://img.shields.io/badge/Hover%20Effects-Interactive-purple) |
-| **Match Detection** | Success/failure animations | ![Match](https://img.shields.io/badge/Match%20Detection-Success%20Animation-green) |
-| **Win Celebration** | Animated victory screen | ![Win](https://img.shields.io/badge/Win%20Celebration-Victory%20Animation-orange) |
-| **License Section** | Floating license information | ![License](https://img.shields.io/badge/License%20Section-Floating%20Card-gray) |
+## How to Play
 
-### 🎮 Gameplay Preview
-```
-🎯 Memory Match Game Flow:
-┌─────────────────────────────────────┐
-│ 1. Click cards to flip them        │
-│ 2. Find matching pairs              │
-│ 3. Complete all matches             │
-│ 4. Celebrate your victory! 🎉      │
-└─────────────────────────────────────┘
-```
+1. Cards are laid out face down in a grid.
+2. Click a card to flip it and reveal its letter.
+3. Click a second card: if it matches, both stay face up; if not, they flip back.
+4. Match all pairs in as few moves as possible. The timer tracks how long a round takes.
+5. When every pair is matched, a victory screen shows your final moves and time.
 
-### 📊 Performance Metrics
-- **⚡ Fast Animations**: 60fps smooth gameplay
-- **📱 Mobile Optimized**: Responsive on all devices
-- **🎨 Modern UI**: Glassmorphism design
-- **🔧 Easy Setup**: One-command installation
+## Features
 
-## 🚀 Quick Start Preview
+- **GSAP animations**: 3D card flips, staggered card entrance, hover effects, match/fail feedback, and an animated win screen.
+- **Move counter and timer**: Track your performance each round.
+- **Restart support**: Shuffle a fresh deck and reset the clock with one click.
+- **Responsive layout**: CSS Grid board that adapts to desktop, tablet, and mobile.
+- **Modern UI**: Glassmorphism styling with animated gradients.
 
-```bash
-# Clone and run in 3 steps
-git clone https://github.com/vishnuskandha/clicker-game-react.git
-cd clicker-game-react
-npm install --legacy-peer-deps && npm start
-```
-
-**Result**: Your game will be running at `http://localhost:3000` with all animations and features!
-
-## ✨ Features
-
-- **Smooth GSAP Animations**: Card flips, hover effects, and page transitions
-- **Modern UI Design**: Glassmorphism effects with animated gradients
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **Game Statistics**: Track moves and time
-- **Win Celebration**: Animated victory screen with confetti effects
-- **Easy Installation**: One-command setup and deployment
-
-## 🚀 Quick Start
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm or yarn
+- Node.js 18 or newer
+- npm
+
+> The project uses `--legacy-peer-deps` during install due to known peer dependency conflicts in the Create React App toolchain.
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/vishnuskandha/clicker-game-react.git
-   cd clicker-game-react
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install --legacy-peer-deps
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm start
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000` to play the game!
-
-## 🎯 How to Play
-
-1. **Objective**: Match all pairs of cards with the same letter
-2. **Gameplay**: 
-   - Click on cards to flip them
-   - Find matching pairs
-   - Complete the game in as few moves as possible
-3. **Scoring**: Track your moves and time to beat your best score
-
-## 🛠️ Available Scripts
-
-- `npm start` - Runs the app in development mode
-- `npm build` - Builds the app for production
-- `npm test` - Launches the test runner
-- `npm run deploy` - Deploys to GitHub Pages
-
-## 🌐 Deployment
-
-### GitHub Pages Deployment
-
-1. **Update the homepage URL** in `package.json`:
-   ```json
-   "homepage": "https://vishnuskandha.github.io/clicker-game-react"
-   ```
-
-2. **Deploy to GitHub Pages**:
-   ```bash
-   npm run deploy
-   ```
-
-3. **Enable GitHub Pages** in your repository settings:
-   - Go to Settings → Pages
-   - Select "Deploy from a branch"
-   - Choose `gh-pages` branch
-   - Your game will be live at `https://vishnuskandha.github.io/clicker-game-react`
-
-### Alternative Deployment Options
-
-- **Netlify**: Drag and drop the `build` folder
-- **Vercel**: Connect your GitHub repository
-- **Heroku**: Use the React buildpack
-
-## 🎨 Customization
-
-### Changing Card Values
-
-Edit the `cardValues` array in `src/components/Game.js`:
-
-```javascript
-const cardValues = ["A", "B", "C", "D", "E", "F", "G", "H"];
+```bash
+git clone https://github.com/vishnuskandha/clicker-game-react.git
+cd clicker-game-react
+npm install --legacy-peer-deps
 ```
 
-### Modifying Animations
+### Available Scripts
 
-Adjust GSAP animations in the component files:
+| Script            | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| `npm start`       | Run the app in development mode at `http://localhost:3000`     |
+| `npm test`        | Launch the test runner in watch mode (`CI=true` in CI)         |
+| `npm run build`   | Build the production bundle into `build/`                      |
+| `npm run deploy`  | Build and publish to GitHub Pages via `gh-pages`               |
 
-```javascript
-// Example: Change card flip duration
-gsap.to(cardRef.current, {
-  rotationY: 180,
-  duration: 0.5, // Adjust this value
-  ease: "power2.inOut"
-});
+## Deployment
+
+The project is configured for GitHub Pages via the `homepage` field in `package.json`.
+
+### GitHub Pages
+
+```bash
+npm run deploy
 ```
 
-### Styling Changes
+This builds the app and publishes the `build/` directory to the `gh-pages` branch. The site is served from the `gh-pages` branch in the repository's Pages settings.
 
-Modify `src/App.css` to customize:
-- Colors and gradients
-- Card sizes and spacing
-- Animation timings
-- Responsive breakpoints
+### Other Hosts
 
-## 🏗️ Project Structure
+The `build/` folder is fully static. Deploy it to any static host:
+
+- **Netlify / Vercel**: point them at this repository; build command `npm run build`, publish directory `build`.
+- **Any web server**: upload the contents of `build/`.
+
+## Customization
+
+- **Card letters**: edit the `cardValues` array in `src/components/Game.js` (it is duplicated to build the deck).
+- **Animations**: GSAP tweens live in `src/components/Game.js` and `src/components/Card.js`.
+- **Styling**: colors, gradients, and responsive breakpoints are in `src/App.css` and `src/index.css`.
+
+## Project Structure
 
 ```
-src/
-├── components/
-│   ├── Card.js          # Individual card component with GSAP animations
-│   └── Game.js          # Main game logic and animations
-├── App.js               # Root component with page transitions
-├── App.css              # Modern styling with animations
-└── index.js             # React app entry point
+.
+├── public/                # Static assets and HTML shell
+├── src/
+│   ├── components/        # Game, Card, and LicenseSection components
+│   ├── App.js             # Root component with page-load animation
+│   ├── App.css            # Styling and animations
+│   ├── App.test.js        # Smoke test for the game title
+│   └── index.js           # React entry point
+└── .github/workflows/     # CI: install, test, build, deploy to GitHub Pages
 ```
 
-## 🎭 Animation Features
+## Contributing
 
-- **Page Load**: Smooth fade-in with scale animation
-- **Card Entrance**: Staggered card appearance with rotation
-- **Card Flips**: 3D rotation with smooth transitions
-- **Hover Effects**: Scale and glow animations
-- **Match Detection**: Success/failure animations
-- **Win Screen**: Celebratory bounce and fade effects
-- **Restart**: Smooth card reset with rotation
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and [SECURITY.md](SECURITY.md) for security guidance.
 
-## 🔧 Technical Details
+## License
 
-- **React 19**: Latest React features
-- **GSAP 3.13**: Professional-grade animations
-- **CSS3**: Modern styling with gradients and transforms
-- **Responsive Grid**: CSS Grid for perfect card layout
-- **Performance**: Optimized animations with hardware acceleration
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Dependency conflicts**: Use `--legacy-peer-deps` flag
-2. **Build errors**: Clear node_modules and reinstall
-3. **Animation issues**: Check browser compatibility
-
-### Getting Help
-
-- Check the [Issues](https://github.com/vishnuskandha/clicker-game-react/issues) page
-- Review the [GSAP Documentation](https://greensock.com/docs/)
-- Read the [React Documentation](https://reactjs.org/docs/)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [GSAP](https://greensock.com/) for amazing animation capabilities
-- [React](https://reactjs.org/) for the component-based architecture
-- [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) for responsive layouts
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
----
-
-**Enjoy playing! 🎉**
-
-Made with ❤️ and lots of ☕
+Distributed under the [MIT License](LICENSE).

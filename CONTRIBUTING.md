@@ -1,79 +1,56 @@
 # Contributing to Memory Match Game
 
-Thank you for your interest in contributing to the Memory Match Game! This document provides guidelines for contributing to this project.
+Thanks for taking the time to contribute! This project is a memory matching game built with React and GSAP.
 
-## 🚀 Getting Started
+## Getting Started
 
-1. Fork the repository
-2. Clone your fork locally
-3. Install dependencies: `npm install --legacy-peer-deps`
-4. Create a new branch for your feature: `git checkout -b feature/amazing-feature`
+1. Fork the repository.
+2. Clone your fork:
+   ```bash
+   git clone https://github.com/<your-username>/clicker-game-react.git
+   cd clicker-game-react
+   ```
+3. Install dependencies:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+4. Create a feature branch:
+   ```bash
+   git checkout -b feat/your-feature
+   ```
 
-## 📝 Development Guidelines
+## Development
 
-### Code Style
-- Use functional components with hooks
-- Follow React best practices
-- Use GSAP for animations
-- Maintain responsive design
-- Write clean, readable code
+- Run the dev server with `npm start` (hot reload at `http://localhost:3000`).
+- Use functional components with hooks, matching the existing code style.
+- Use GSAP for animations and keep them short and responsive (under ~0.5s).
+- Before committing, run the checks below.
 
-### Commit Messages
-Use clear, descriptive commit messages:
-- `feat: add new card flip animation`
-- `fix: resolve card flip timing issue`
-- `style: update button hover effects`
-- `docs: update README with new features`
+## Checks
 
-## 🎮 Game Features
+```bash
+npm run build
+CI=true npm test -- --watchAll=false
+```
 
-### Adding New Features
-- Card animations should use GSAP
-- Maintain 60fps performance
-- Ensure mobile compatibility
-- Add proper error handling
+The CI pipeline runs install, tests, and the production build on every pull request.
 
-### Animation Guidelines
-- Use `power2.out` easing for snappy feel
-- Keep animations under 0.5s for responsiveness
-- Use `will-change: transform` for GPU acceleration
-- Test on different devices
+## Pull Request Process
 
-## 🧪 Testing
+1. Write clear, descriptive commit messages (e.g. `feat: add difficulty levels`).
+2. Update the README if your change affects usage or setup.
+3. Add or update tests for new behavior.
+4. Ensure build and tests pass locally, then open a pull request against `main`.
 
-Before submitting:
-- Test on desktop and mobile
-- Verify animations are smooth
-- Check for console errors
-- Ensure game logic works correctly
+## Reporting Bugs
 
-## 📋 Pull Request Process
+Open an issue and include:
 
-1. Update README.md if needed
-2. Add tests for new features
-3. Ensure all tests pass
-4. Request review from maintainers
-
-## 🐛 Bug Reports
-
-When reporting bugs, include:
 - Browser and version
 - Steps to reproduce
-- Expected vs actual behavior
-- Screenshots if applicable
+- Expected vs. actual behavior
+- Screenshots or a short screen recording if applicable
 
-## 💡 Feature Requests
+## License
 
-For feature requests:
-- Describe the feature clearly
-- Explain the use case
-- Consider implementation complexity
-- Check existing issues first
-
-## 📄 License
-
-By contributing, you agree that your contributions will be licensed under the MIT License.
-
----
-
-**Happy coding! 🎉**
+By contributing, you agree that your contributions are licensed under the [MIT License](LICENSE).

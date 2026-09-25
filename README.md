@@ -1,4 +1,12 @@
+<div align="center">
+
 # Memory Match Game
+
+**A responsive React memory game with animated card flips, a move counter, a timer, and a victory screen.**
+
+`React · GSAP · CSS Grid`
+
+</div>
 
 
 <!-- README polish: repository metadata badges -->
